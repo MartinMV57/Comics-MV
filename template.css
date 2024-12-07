@@ -67,7 +67,7 @@ article > h1{
 }
 
 @media screen and (max-width:991px){
-    .fragment, .fragment h1, .precio, .fragment button{
+    .fragment, .fragment button{
         display: flex;
         flex-direction: column;
     }
@@ -80,6 +80,12 @@ article > h1{
     }
     
     .precio, .fragment h1{
-        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .fragment button{
+        text-align: center;
     }
 }
