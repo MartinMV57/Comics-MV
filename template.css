@@ -87,5 +87,8 @@ article > h1{
 
     .fragment button{
         text-align: center;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5px;
     }
 }
