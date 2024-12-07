@@ -160,6 +160,7 @@ button:hover{
     }
     .menu{
         display: inherit;
+        display: flex;
     }
 }
 
@@ -205,10 +206,10 @@ button:hover{
 }
 
 .menu {
-    margin-left: 20px;
+    margin-left: 0px;
     font-weight: 700;
     color: darkred;
-    padding: 9px 25px;
+    padding: 9px 0px;
     border:none;
 }
 

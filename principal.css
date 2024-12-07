@@ -8,6 +8,7 @@ section > div {
     width: 85%;
     align-items: center;
     justify-items: center;
+    object-fit: cover;
 }
 
 section div:nth-child(1) > a img{
@@ -194,4 +195,34 @@ h2{
     color: #f5f3f3;
     text-align: center;
     font-size: larger;
+}
+
+@media screen and (max-width: 800px){
+    
+    section > div {
+        width: 100%;
+    }
+
+    section div a > img{
+        width: 400px;
+        height: 400px;
+        object-fit: scale-down;
+        object-position: 0px 100px;
+        mask-image: linear-gradient(#222,transparent);
+    }
+    
+
+    section div:nth-child(1) > a img{
+        object-position: 0px 80px;
+    }
+    
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description img{
+        padding-bottom: 20px;
+    }
 }
