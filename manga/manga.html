@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../navbar.css">
+        <link rel="stylesheet" href="../footer.css">
+        <script src="https://kit.fontawesome.com/8a97b381e2.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../nav.js"></script>
+        <link rel="icon" href="../media/logo.png">
+        <title>Mangas</title>
+    </head>
+    <body>
+        <nav>
+            <a onclick="openNav()" class="menu"><button><i class="fa-solid fa-bars"></i></button></a> 
+            <div class="overlay" id="mobile_menu">
+                <a onclick="closeNav()" href="" class="close">&times;</a>
+                <div class="overlay_content">
+                    <a href="../comics/comics.html">Comics</a>
+                    <a href="../manga/manga.html">Manga</a>
+                </div>
+            </div> 
+            <div class="logo">
+                <a href="../index.html"><img src="../media/logo.png" alt="logo_barra"></a>
+            </div>
+            <ul class="navb">
+                <li><a href="../comics/comics.html">Comics</a></li>
+                <li><a href="../manga/manga.html">Manga</a></li>
+            </ul>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>    
+            </div>    
+            <i class="fa-solid fa-cart-shopping">
+                <div class="carrito">
+                    <ul class="nav-card">
+                       <li>Imagen</li>
+                       <li>Nombre</li>
+                       <li>Precio</li>
+                       <li>Cantidad</li>
+                       <li></li>
+                    </ul>
+                    <div class="productos">
+                        
+                    </div>
+                    <button class="vaciar">Vaciar Carrito</button>
+                </div>
+            </i>
+        </nav>  
+        <main>
+            <h1>Mangas</h1>
+            <section class="grid">
+                <article class="mangas">
+                    <a href="template/attack on titan.html"><img src="../media/imgmanga/AOT.jpg"></a>
+                    <div class="info">
+                        <h3>Attack on Titan #30</h3>
+                        <div class="precio">
+                            <p>$109.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/Black Clover.html"><img src="../media/imgmanga/BC.jpg"></a>
+                    <div class="info">
+                        <h3>Black Clover #26</h3>
+                        <div class="precio">
+                            <p>$119.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/Blue Lock.html"><img src="../media/imgmanga/bl.jpg"></a>
+                    <div class="info">
+                        <h3>Blue Lock #21</h3>
+                        <div class="precio">
+                            <p>$148.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/Bocchi the rock.html"><img src="../media/imgmanga/BTR.jpg"></a>
+                    <div class="info">
+                        <h3>Bocchi the Rock! Vol.2</h3>
+                        <div class="precio">
+                            <p>$283.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/Dragon Ball.html"><img src="../media/imgmanga/DBS.jpg"></a>
+                    <div class="info">
+                        <h3>Dragon Ball Super #23</h3>
+                        <div class="precio">
+                            <p>$169.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/dan da dan.html"><img src="../media/imgmanga/DDD.jpg"></a>
+                    <div class="info">
+                        <h3>Dan Da Dan #1</h3>
+                        <div class="precio">
+                            <p>$119.00</p>
+                            <p>$159.00</p>
+                            <p>-25%</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/demon slayer.html"><img src="../media/imgmanga/DS.jpg"></a>
+                    <div class="info">
+                        <h3>Demon Slayer #6</h3>
+                        <div class="precio">
+                            <p>$119.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/Fullmetal Alchemist.html"><img src="../media/imgmanga/FMA.jpg"></a>
+                    <div class="info">
+                        <h3>Fullmetal Alchemist #1</h3>
+                        <div class="precio">
+                            <p>$129.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/Jojo.html"><img src="../media/imgmanga/SBR.jpg"></a>
+                    <div class="info">
+                        <h3>Jojo's Bizarre: Steel Ball Run #1</h3>
+                        <div class="precio">
+                            <p>$189.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/My Dress-Up Darling.html"><img src="../media/imgmanga/MVD.jpg"></a>
+                    <div class="info">
+                        <h3>My Dress-Up Darling #10</h3>
+                        <div class="precio">
+                            <p>$149.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/My Hero Academia.html"><img src="../media/imgmanga/MHA.jpg"></a>
+                    <div class="info">
+                        <h3>My Hero Academia #11</h3>
+                        <div class="precio">
+                            <p>$109.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="mangas">
+                    <a href="template/One Piece.html"><img src="../media/imgmanga/OP.jpg"></a>
+                    <div class="info">
+                        <h3>One Piece #108</h3>
+                        <div class="precio">
+                            <p>$159.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="foot_container">
+                <div class="foot_row">
+                    <div class="foot_links">
+                        <h4>Informacion</h4>
+                        <ul>
+                            <li>Nosotros</li>
+                            <li>Preguntas frecuentes</li>
+                            <li>Politica de privacidad</li>
+                        </ul>
+                    </div>
+
+                    <div class="foot_links">
+                        <h4>Redes Sociales</h4>
+                        <div class="social_networks">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </footer>
+    </body>
+</html>

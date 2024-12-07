@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cmx.css">
+        <link rel="stylesheet" href="../navbar.css">
+        <link rel="stylesheet" href="../footer.css">
+        <script src="https://kit.fontawesome.com/8a97b381e2.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../nav.js"></script>
+        <link rel="icon" href="../media/logo.png">
+        <title>Comics</title>
+    </head>
+    <body>
+        <nav>
+            <a onclick="openNav()" class="menu"><button><i class="fa-solid fa-bars"></i></button></a> 
+            <div class="overlay" id="mobile_menu">
+                <a onclick="closeNav()" href="" class="close">&times;</a>
+                <div class="overlay_content">
+                    <a href="../comics/comics.html">Comics</a>
+                    <a href="../manga/manga.html">Manga</a>
+                </div>
+            </div> 
+            <div class="logo">
+                <a href="../index.html"><img src="../media/logo.png" alt="logo_barra"></a>
+            </div>
+            <ul class="navb">
+                <li><a href="../comics/comics.html">Comics</a></li>
+                <li><a href="../manga/manga.html">Manga</a></li>
+            </ul>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>    
+            </div>    
+            <i class="fa-solid fa-cart-shopping">
+                <div class="carrito">
+                    <ul class="nav-card">
+                       <li>Imagen</li>
+                       <li>Nombre</li>
+                       <li>Precio</li>
+                       <li>Cantidad</li>
+                       <li></li>
+                    </ul>
+                    <div class="productos">
+                        
+                    </div>
+                    <button class="vaciar">Vaciar Carrito</button>
+                </div>
+            </i>
+        </nav>    
+        <main>
+            <h1>Comics</h1>
+            <section class="grid">
+                <article class="comics">
+                    <a href="template/batman.html"><img src="../media/imgcomic/abm1.jpg"></a>
+                    <div class="info">
+                        <h3>Absolute Batman #1</h3>
+                        <div class="precio">
+                            <p>$99.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/superman.html"><img src="../media/imgcomic/asuper1.jpg"></a>
+                    <div class="info">
+                        <h3>Absolute Superman #1</h3>
+                        <div class="precio">
+                            <p>$99.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/aliens vs avengers.html"><img src="../media/imgcomic/ava2.jpg"></a>
+                    <div class="info">
+                        <h3>Aliens vs. Avengers #3</h3>
+                        <div class="precio">
+                            <p>$159.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/Woman Without Fear.html"><img src="../media/imgcomic/daredevil1.jpg"></a>
+                    <div class="info">
+                        <h3>Daredevil: Woman Without Fear #1</h3>
+                        <div class="precio">
+                            <p>$99.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/Daredevil.html"><img src="../media/imgcomic/daredevil2.jpg"></a>
+                    <div class="info">
+                        <h3>Daredevil #2</h3>
+                        <div class="precio">
+                            <p>$169.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/Deadpool.html"><img src="../media/imgcomic/deadpool2.jpg"></a>
+                    <div class="info">
+                        <h3>Deadpool #2</h3>
+                        <div class="precio">
+                            <p>$79.00</p>
+                            <p>$119.00</p>
+                            <p>-63%</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/Inmortal hulk.html"><img src="../media/imgcomic/ih1.jpg"></a>
+                    <div class="info">
+                        <h3>Inmortal Hulk: La Puerta Verde</h3>
+                        <div class="precio">
+                            <p>$189.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/Iron man.html"><img src="../media/imgcomic/ironman1.jpg"></a>
+                    <div class="info">
+                        <h3>Iron-Man: Roxxon War</h3>
+                        <div class="precio">
+                            <p>$99.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/Nightwing.html"><img src="../media/imgcomic/nw37.jpg"></a>
+                    <div class="info">
+                        <h3>Nightwing #37</h3>
+                        <div class="precio">
+                            <p>$79.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/Ultimate Spider-man.html"><img src="../media/imgcomic/usm1.jpg"></a>
+                    <div class="info">
+                        <h3>Ultimate Spider-Man Vol. 1</h3>
+                        <div class="precio">
+                            <p>$249.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/Life of wolverine.html"><img src="../media/imgcomic/wolverine1.jpg"></a>
+                    <div class="info">
+                        <h3>Life of Wolverine</h3>
+                        <div class="precio">
+                            <p>$99.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+                <article class="comics">
+                    <a href="template/wonder woman.html"><img src="../media/imgcomic/ww1.jpg"></a>
+                    <div class="info">
+                        <h3>Absolute Wonder Woman</h3>
+                        <div class="precio">
+                            <p>$99.00</p>
+                        </div>
+                        <button>Agregar al carrito</button>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="foot_container">
+                <div class="foot_row">
+                    <div class="foot_links">
+                        <h4>Informacion</h4>
+                        <ul>
+                            <li>Nosotros</li>
+                            <li>Preguntas frecuentes</li>
+                            <li>Politica de privacidad</li>
+                        </ul>
+                    </div>
+
+                    <div class="foot_links">
+                        <h4>Redes Sociales</h4>
+                        <div class="social_networks">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </footer>
+    </body>
+</html>
